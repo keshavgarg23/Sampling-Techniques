@@ -13,4 +13,5 @@ A total of 5 sampling techniques are used on the dataset which are as follows:
 5. NearMiss sampling
 
 After applying the above techniques, n samples are randomly chosen from the generated balanced dataset (except for Tomek link sampling). n is calculated as follows:
+
 ![n = (z**2 * p * (1-p) )//(e**2)](./sample_images/n.png)
