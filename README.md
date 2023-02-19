@@ -15,3 +15,17 @@ A total of 5 sampling techniques are used on the dataset which are as follows:
 After applying the above techniques, n samples are randomly chosen from the generated balanced dataset (except for Tomek link sampling). n is calculated as follows:
 
 ![n = (z**2 * p * (1-p) )//(e**2)](./sample_images/n.png)
+
+## Model training
+After appling the sampling techniques, the following 5 Machine Learning models are training on the dataset:
+1. K Nearest Neighbours
+2. Random Forest Classifier
+3. Xgboost Classifier
+4. Support Vector Classifier
+5. Naive Bayes Classifier
+The accuracy scores of all the models are recorded in a Dataframe which is as follows:
+
+![Result Dataframe](./sample_images/result.png)
+
+## Conclusion
+From the above table, it is clearly visible the all models perform significantly better on Tomek Link sampling technique. The maximum accuracy is 0.9806 which is achieved on Tomek Link sampling by 4 out of 5 Models.
